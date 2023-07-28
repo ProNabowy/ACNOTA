@@ -1,0 +1,60 @@
+/* Start Control Media From 1999px */
+@media (max-width: 1199px) {
+
+    .noteVerse h1,
+    .note-Nexus h1 {
+        font-size: 30px !important;
+    }
+}
+
+/* Start Control Media From 991px */
+@media (max-width: 991px) {
+    .about .row>div {
+        margin-bottom: 90px;
+    }
+
+    .noteVerse .left-note,
+    .note-Nexus .left-note,
+    .noteVerse .right-note,
+    .note-Nexus .right-note {
+        width: 100% !important;
+        margin-bottom: 10px;
+    }
+
+    .overlay-left,
+    .overlay-right {
+        display: none;
+    }
+
+    .noteVerse .left-note,
+    .note-Nexus .right-note {
+        background-color: #48c480;
+        margin-bottom: 30px;
+        padding: 10px;
+        text-align: center;
+        border-radius: 10px;
+    }
+}
+
+/* Start Control Media From 768px */
+@media (max-width: 768px) {
+    header .container-fluid {
+        padding: 5px !important;
+    }
+
+    header .container-fluid i {
+        font-size: 13px !important;
+    }
+
+    .header-icons i:last-child::after {
+        width: 15px;
+        height: 15px;
+        font-size: 13px;
+        right: -15px;
+        top: -12px;
+    }
+
+    .landing-page h1 {
+        font-size: 30px !important;
+    }
+}
